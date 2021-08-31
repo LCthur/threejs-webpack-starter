@@ -4,7 +4,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import * as dat from 'dat.gui'
 
 //Loading texture
-const textureLoader = new THREE.textureLoader()
+const textureLoader = new THREE.TextureLoader()
 const normalTexture = textureLoader.load('/textures/NormalMap.png')
 
 // Debug
